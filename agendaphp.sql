@@ -30,3 +30,8 @@ CREATE TABLE `usuarios` (
   `fecha_nacimiento` date NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+INSERT INTO `usuarios` VALUES (1,'Alfredover','$2y$10$FXapmn0UClIAvkD7Ht.GKeSvP.qylmqP8m96o5cmZCfDx9KiTnGyi','Alfredo Vergara','1976-07-26');
+
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
