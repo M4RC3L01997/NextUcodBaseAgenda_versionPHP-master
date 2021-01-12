@@ -21,3 +21,12 @@ CREATE TABLE `eventos` (
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 
 INSERT INTO `eventos` VALUES (13,'Entrevista','2019-01-19','2019-01-19','10:30','10:30','Alfredover',0);
+DROP TABLE IF EXISTS `usuarios`;
+CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `nombre` varchar(255) NOT NULL,
+  `fecha_nacimiento` date NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
