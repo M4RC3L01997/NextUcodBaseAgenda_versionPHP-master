@@ -19,3 +19,5 @@ CREATE TABLE `eventos` (
   `fulldia` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+
+INSERT INTO `eventos` VALUES (13,'Entrevista','2019-01-19','2019-01-19','10:30','10:30','Alfredover',0);
